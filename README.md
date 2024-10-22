@@ -33,16 +33,16 @@ Kenya,15-24,male,2015,4769000.0,53.436,...
 
 ## Installation
 To run this application locally, follow these steps:
-### Clone this repository:
+### 1. Clone this repository:
 bash
 git clone https://github.com/FazeJ99/Employment-trends-Analysis-Dashboard.git
 cd repository-name
 
-### Install the requirements.txt file:
+### 2. Install the requirements.txt file:
 bash
 pip install -r requirements.txt
 
-### Run the Streamlit application:
+### 3. Run the Streamlit application:
 bash
 streamlit run app.py
 
