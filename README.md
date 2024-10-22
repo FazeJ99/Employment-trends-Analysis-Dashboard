@@ -29,6 +29,8 @@ name,age_group,sex,year,population,ILO_inactive_share,total_inactive_population,
 Kenya,15-24,female,2015,4742700.0,55.928,... 
 Kenya,15-24,male,2015,4769000.0,53.436,...
 
+```
+
 Installation
 To run this application locally, follow these steps:
 Clone this repository:
