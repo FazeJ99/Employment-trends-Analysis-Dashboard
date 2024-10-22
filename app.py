@@ -10,11 +10,11 @@ def load_data():
 data = load_data()
 
 # Simple Streamlit app using Plotly
-st.title("Streamlit Dashboard with Plotly")
-st.write("This is a simple example dashboard with Plotly visualizations.")
+st.title("Streamlit Dashboard on Kenyan Employment Data")
+st.write("This is a simple example dashboard on Kenyan Employment Data and Labor force")
 
 # Sidebar for selection
-st.sidebar.title("Select Visualization")
+st.sidebar.title("Select a Visual")
 visualization_options = [
     "Unemployment Rate Over Time by Sex and Age Group",
     "Total Employed Population by Age Group across the employed",
@@ -27,7 +27,7 @@ visualization_options = [
     "Unemployment Rate by Age Group"
 ]
 
-selected_visualization = st.sidebar.selectbox("Choose a visualization", visualization_options)
+selected_visualization = st.sidebar.selectbox("Choose a visual", visualization_options)
 
 # Display the selected visualization
 if selected_visualization == "Unemployment Rate Over Time by Sex and Age Group":
