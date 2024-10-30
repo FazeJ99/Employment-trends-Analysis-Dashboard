@@ -32,7 +32,7 @@ visualization_options = [
     "Unemployment Rate by Age Group"
 ]
 
-selected_visualization = st.sidebar.selectbox("Choose a visual", visualization_options)
+selected_visualization = st.sidebar.selectbox("Choose a visual from the sidebar below", visualization_options)
 
 # Display the selected visualization
 if selected_visualization == "Unemployment Rate Over Time by Sex and Age Group":
