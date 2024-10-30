@@ -1,3 +1,8 @@
+"""
+This is a simple example dashboard on Kenyan Employment Data and Labor force
+Link to the deployed steeamlit application - https://employment-trends-analysis-dashboard-knpdpxybknqhnwduu8bnpq.streamlit.app/
+
+"""
 import streamlit as st
 import pandas as pd
 import plotly.express as px
